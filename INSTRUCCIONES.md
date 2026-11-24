@@ -15,7 +15,7 @@ El cumplimiento de cada requisito de la rúbrica, con el comando para comprobarl
 
 ## Repositorio y contenido de la entrega
 
-Repositorio público en GitHub: **https://github.com/CessarGit/OrquestacionDockerKodiStore.git**
+Repositorio público en GitHub: **https://github.com/CessarGit/KodiStoreOrquetacionConDocker.git**
 
 | Entregable | Dónde está |
 |------------|------------|
@@ -54,8 +54,8 @@ La documentación cubre:
 Clona el repositorio y entra en su carpeta raíz. Todos los comandos de esta guía se ejecutan desde ahí:
 
 ```bash
-git clone https://github.com/CessarGit/OrquestacionDockerKodiStore.git
-cd OrquestacionDockerKodiStore
+git clone https://github.com/CessarGit/KodiStoreOrquetacionConDocker.git
+cd KodiStoreOrquetacionConDocker
 ```
 
 El archivo `.env` guarda los secretos. **No está en el repositorio** y nunca entra en las imágenes. Créalo a partir de `.env.example`:
