@@ -1,0 +1,31 @@
+# Dependencias y artefactos: se generan DENTRO del build
+node_modules
+.next
+out
+build
+coverage
+.turbo
+.vercel
+
+# Secretos y configuración local: nunca deben entrar a la imagen
+.env
+.env.*
+!.env.example
+
+# Control de versiones, editores y SO
+.git
+.gitignore
+.vscode
+.idea
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Archivos de Docker (evita invalidar caché al editarlos)
+Dockerfile*
+.dockerignore
+*.dockerignore
+pnpm-debug.log*
+docker-compose*.yml
+README*.md

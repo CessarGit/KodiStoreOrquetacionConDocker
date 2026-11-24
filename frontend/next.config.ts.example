@@ -1,0 +1,11 @@
+// Copia esta configuración en el next.config.ts de TU proyecto.
+// La línea clave es  output: "standalone"  -> genera .next/standalone
+// con solo los archivos necesarios para ejecutar el servidor en producción.
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  output: "standalone",
+  poweredByHeader: false, // no anunciar "X-Powered-By: Next.js"
+};
+
+export default nextConfig;

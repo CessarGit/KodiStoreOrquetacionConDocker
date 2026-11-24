@@ -1,0 +1,5 @@
+# Los scripts deben tener saltos de línea LF (Linux) aunque edites en Windows;
+# con CRLF el contenedor falla con "exec format error" o "not found".
+*.sh text eol=lf
+Dockerfile* text eol=lf
+*.conf text eol=lf

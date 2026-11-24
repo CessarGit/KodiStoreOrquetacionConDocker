@@ -1,0 +1,42 @@
+# Dependencias: Composer las instala dentro del build
+vendor
+node_modules
+
+# Secretos: se inyectan como variables de entorno en runtime
+.env
+.env.*
+!.env.example
+auth.json
+
+# Cachés y archivos generados localmente
+bootstrap/cache/*.php
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/app/*
+public/storage
+public/hot
+.phpunit.result.cache
+.phpunit.cache
+coverage
+
+# Control de versiones, IDE y SO
+.git
+.gitignore
+.gitattributes
+.idea
+.vscode
+.editorconfig
+*.log
+.DS_Store
+Thumbs.db
+
+# Archivos de Docker
+Dockerfile*
+.dockerignore
+docker-compose*.yml
+README*.md
+
+# Base SQLite local (en Docker se usa MySQL)
+database/*.sqlite

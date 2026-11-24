@@ -1,0 +1,11 @@
+# ANTES: Dockerfile "básico" (una sola etapa) — solo para comparar.
+# Problemas: imagen completa de Debian (~1 GB), devDependencies y código
+# fuente en producción, corre como root, y COPY . . antes de instalar
+# invalida la caché de npm en cada cambio de código.
+FROM node:20
+WORKDIR /app
+COPY . .
+RUN npm install
+RUN npm run build
+EXPOSE 3000
+CMD ["npm", "start"]
