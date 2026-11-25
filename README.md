@@ -1,10 +1,9 @@
 # Ecosistema de producción con Docker multi-stage
-### Next.js 16 · Laravel 13 (PHP 8.4-FPM + Nginx) · MySQL
 
 **Bootcamp Full Stack Junior · Módulo V: DevOps, Integración y Validación Profesional**
 Rol: DevOps Engineer
 
-> **¿Solo quieres ejecutarlo?** Sigue la guía paso a paso en [INSTRUCCIONES.md](INSTRUCCIONES.md).
+> **Para mas informacion tecnica de como utilizar este ecosistema, en GitHub, busca el archivo:** en INSTRUCCIONES.d
 
 ---
 
